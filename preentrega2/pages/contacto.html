@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header>
+        <h1>Formulario de Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <article>
+                <audio controls>
+                    <source src="../assets/Daft Punk - Human After All (Official Music Video).mp3" type="audio/mp3">
+                    Tu navegador no soporta el reproductor de audio.
+                </audio>
+            </article>
+        <section>
+            <h2>Escríbenos tu Consulta</h2>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="nombre" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required placeholder="apellido" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="1123456789" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="instagram">Usuario de Instagram:</label>
+                    <input type="text" id="instagram" name="instagram" placeholder="@tuusuario" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="motivo">Motivo de contacto:</label>
+                    <select id="motivo" name="motivo" required>
+                        <option value="">-- Selecciona una opción --</option>
+                        <option value="reserva">Reserva de Zona VIP</option>
+                        <option value="consulta">Consulta sobre precios</option>
+                        <option value="evento">Organización de eventos</option>
+                        <option value="otro">Otro motivo</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required placeholder="Escribe tu consulta aquí..."></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit">Enviar Mensaje</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
